@@ -7,5 +7,5 @@ div,
 header,
 footer,
 section:first-child {
-  border: 1px solid rgb(73, 74, 82);
+  border: 5px solid rgb(73, 74, 82);
 }

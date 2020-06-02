@@ -62,11 +62,13 @@ footer {
   }
 
   header {
+    background-color: rgb(120, 150, 160);
     height: 100px;
     line-height: 100px;
   }
 
   #section-1 {
+    background-color: rgb(182, 96, 96);
     float: left;
     height: 600px;
     line-height: 600px;
@@ -80,6 +82,14 @@ footer {
     width: 380px;
   }
 
+  #section-2 div:first-child {
+    background-color: rgb(194, 194, 164);
+  }
+
+  #section-2 div:last-child {
+    background-color: rgb(107, 177, 107);
+  }
+
   #section-3 div:nth-child(odd) {
     width: 190px;
   }
@@ -90,10 +100,27 @@ footer {
     width: 190px;
   }
 
+  #section-3 div:nth-child(1) {
+    background-color: rgb(192, 140, 148);
+  }
+
+  #section-3 div:nth-child(2) {
+    background-color: rgb(129, 158, 168);
+  }
+
+  #section-3 div:nth-child(3) {
+    background-color: rgb(182, 113, 86);
+  }
+
+  #section-3 div:nth-child(4) {
+    background-color: rgb(21, 117, 113);
+  }
+
   footer {
-    width: 760px;
+    background-color: rgb(95, 148, 180);
+    float: right;
     height: 150px;
     line-height: 150px;
-    float: right;
+    width: 760px;
   }
 }

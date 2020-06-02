@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div,
+header,
+footer,
+section:first-child {
+  border: 2px solid grey;
+}

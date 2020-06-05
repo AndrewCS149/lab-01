@@ -1,0 +1,84 @@
+header,
+#wrapper>div,
+footer {
+  border: 3px solid grey;
+}
+
+header {
+  background-color: lightblue;
+  border-radius: 10px 10px 0px 0px;
+}
+
+div:nth-child(2) {
+  background-color: lightcoral;
+}
+
+div:nth-child(3) {
+  background-color: lightcyan;
+}
+
+div:nth-child(4) {
+  background-color: lightgoldenrodyellow;
+}
+
+div:nth-child(5) {
+  background-color: lightgray
+}
+
+div:nth-child(6) {
+  background-color: lightgreen;
+}
+
+div:nth-child(7) {
+  background-color: lightpink;
+}
+
+div:nth-child(8) {
+  background-color: lightsalmon;
+}
+
+footer {
+  background-color: lightseagreen;
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    background-color: aqua;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  div:nth-child(2) {
+    background-color: aquamarine;
+    border-radius: 0px 0px 0px 10px;
+  }
+
+  div:nth-child(3) {
+    background-color: beige;
+  }
+
+  div:nth-child(4) {
+    background-color: burlywood;
+  }
+
+  div:nth-child(5) {
+    background-color: cadetblue
+  }
+
+  div:nth-child(6) {
+    background-color: darkgoldenrod;
+  }
+
+  div:nth-child(7) {
+    background-color: gold
+  }
+
+  div:nth-child(8) {
+    background-color: honeydew;
+  }
+
+  footer {
+    background-color: khaki;
+    border-radius: 0px 0px 10px 0px;
+  }
+}
